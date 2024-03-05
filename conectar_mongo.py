@@ -13,8 +13,8 @@ db = cliente.Loja_db
 # Depois fizemos a leitura de todas linha com o for e exibimos na tela.
 
 
-# for us in db["usuario"].find():
-    # print(us)
+for us in db["usuario"].find():
+    print(us)
 
 # usuario_id = db["usuario"].insert_one({"nomeusuario":"jose","senha":"123","nivel":"usuario"}).inserted_id
 # print(usuario_id)
